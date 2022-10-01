@@ -1,0 +1,31 @@
+<%- include("partials/header") %>
+<style media="screen">
+  .container-fluid{
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+    align-items:left;
+  }
+  .center {
+    background-color: #FFDF92;
+    /* color:#fff; */
+    color:rgba(255, 253, 253, 0.778);
+    margin: auto;
+    font-style: bold;
+    width: 25%;
+    border: 5px solid black ;
+    padding: 10px;
+    margin-top:40px;
+    text-align: center;
+}
+</style>
+<p class="transfermoneyheading heading">Customer Details</p>
+
+<div class="container-fluid center">
+  <h2>Name: <%=name%></h2>
+  <h2>Mobile Number: <%=mn%></h2>
+  <h2>Email: <%=email%></h2>
+  <h2>Amount: <%=b%></h2>
+</div>
+
+<%- include("partials/footer") %>

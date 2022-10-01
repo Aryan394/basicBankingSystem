@@ -1,0 +1,21 @@
+<%- include("partials/header") %>
+
+<h1 class="transfermoneyheading"> The history of all the transactions is displayed here</h1>
+
+<table class = "customertable">
+    <th>Sender's name</th>
+    <th>Sender's email</th>
+    <th>Recievers's name</th>
+    <th>Recievers's email</th>
+    <th>Amount</th>
+    <tr>
+        <% for(let i =0 ;i < sendersName.length; i++){ %>
+            <td> <%= sendersName[i] %> </td> 
+            <td> <%= sendersEmail[i] %> </td>   
+            <td> <%= recieversName[i] %> </td>  
+            <td> <%= recieversEmail[i] %> </td>  
+            <td> <%= Amt[i] %> </td> %>
+        </tr>
+    <% } %>
+</table>
+<%- include("partials/footer") %>

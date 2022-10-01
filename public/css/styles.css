@@ -1,0 +1,140 @@
+body{
+    background-color: #ffdf92;
+    margin: 0 0 0 0;
+}
+
+.Time{
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:rgba(255, 255, 255, 0.778);
+    text-shadow: 0 0 3px #888787, 0 0 5px #0000FF;
+    margin-left: 2px;
+}
+.welcome{
+    font-size: 54px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    color:rgba(255, 255, 255, 0.778);
+    text-shadow: 0 0 3px #d5d1d1, 0 0 5px #0000FF;
+}
+
+#theFastestServices{
+    font-size: 44px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    color:rgba(255, 255, 255, 0.778);
+    text-shadow: 0 0 3px #d5d1d1, 0 0 5px #0000FF;
+}
+
+.blackBackground{
+    background-color: rgb(0, 0, 0);
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.homePageImage{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#contactUs{
+    font-size: 44px;
+}
+
+#congratulationsHeading{
+    font-size: 44px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:rgba(255, 255, 255, 0.778);
+    text-shadow: 0 0 3px #d5d1d1, 0 0 5px #0000FF;
+    text-align: center;
+}
+
+#congratulationsText{
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:rgba(255, 255, 255, 0.778);
+    text-shadow: 0 0 3px #d5d1d1, 0 0 5px #0000FF;
+    text-align: center;
+}
+
+.info{
+    
+    /* margin-left: auto;
+    margin-right: auto; */
+    text-align: center;
+    background-color:ffdf92(255, 255, 255, 0.778);
+    width: auto;
+
+}
+
+.transfermoneyheading{
+    font-size: 28px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:rgba(255, 255, 255, 0.778);
+    text-shadow: 0 0 3px #d5d1d1, 0 0 5px #0000FF;
+    text-align: center;
+}
+
+.submit-button{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    display: grid;
+    cursor: pointer;
+}
+
+.submit-button:hover{
+    margin-left: auto;
+    color: #ffdf92;
+    background-color: black;
+    margin-right: auto;
+    text-align: center;
+    display: grid;
+    cursor: pointer;
+}
+
+.transfermoneyform{
+    text-align: center;
+    border: 3px solid black;
+    margin: 4px 2px;
+    width: 300px;
+    height: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 22px;
+    display: inline-block;
+}
+
+.customertable{
+    border: 1px solid;
+    text-align: center;
+    margin-left: auto ;
+    margin-right: auto ;
+    font-size: 22px;
+}
+
+table,th,td{
+    border: 1px solid;
+}
+
+.alert{
+    text-align: center;
+    font-size: 28px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:#ffdf92;
+    text-shadow: 0 0 3px #d5d1d1, 0 0 5px #0000FF;
+}
+
+.footer{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 9px;
+    position:fixed;
+    bottom: 0;
+    width: 100%;
+    height: 60px; 
+}

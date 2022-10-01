@@ -1,0 +1,30 @@
+<%- include("partials/header") %>
+
+<div class="Register">
+  <%if(message!=""){%>
+    <%if(message=="Congratulations! Transaction Successful"){%>
+      <div class="alert alert-success" role="alert">
+        <%=message%>
+      </div>
+    <%}else{%>
+      <div class="alert alert-danger" role="alert">
+        <%=message%>
+      </div>
+    <%}%>
+  <%}%>
+  <form action="/sendmoney" method="POST">
+    <div class="title">
+      <h2 class = "transfermoneyheading">TRANSFER MONEY</h2>
+    </div>
+    <div class="info">
+      <input class="transfermoneyform fname" type="text" name="sendername" placeholder="Sender's name" required> <br>
+      <input class = "transfermoneyform " type="email" name="senderemail" placeholder="Sender's Email" required><br>
+      <input class="transfermoneyform fname" type="text" name="receivername" placeholder="Reciever's name" required> <br>
+      <input class = "transfermoneyform " type=" email" name="receiveremail" placeholder="Receiver's Email" required> <br>
+      <input class = "transfermoneyform " type=" text" name="money" placeholder="Amount to transfer" required> <br>
+    </div>
+    <button class = "submit-button" type="submit" href="/" style="background-color: white">Submit</button>
+    </form>
+</div>
+
+<%- include("partials/footer") %>

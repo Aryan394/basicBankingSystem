@@ -1,0 +1,29 @@
+<%- include("partials/header") %>
+   <div class="Register">
+   
+
+     <form action="/updateform" method="POST">
+
+       <div class="title">
+         <h2 class="transfermoneyheading">Register here</h2>
+       </div>
+       <div class="info">
+         <input class="transfermoneyform fname" type="text" name="newuser" placeholder="First Name" required><br>
+         <input class = "transfermoneyform" type="email" name="newuser" placeholder="Email" > <br>
+         <input class = "transfermoneyform" type="text" name="newuser" placeholder="Phone number" required> <br>
+         <input class = "transfermoneyform" type="text" name="newuser" placeholder="Initial Balance" required> <br>
+         <br>
+       </div>
+       <div>
+         <button class="submit-button"type="submit" href="/" style="background-color: white">Submit</button>
+       </div>
+</form>
+<br>
+<br>
+<%if(success!=""){ %>
+  <div class=" transfermoneyfrom alert alert-success" role="alert">
+     <%=success%>
+   </div>
+<%}%>
+
+<%- include("partials/footer") %>
